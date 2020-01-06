@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Help</title>
+    <link rel="icon" href="/img/weather.png">
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+
+<body>
+    <div class="main-content">
+        {{>header}}
+        <p>{{message}}</p>
+        <p>The Following Points should be considered while using the App.</p>
+        <ol id="helptext">
+            <li>Before trying to fetch the forecast, an Input in the form of Address has to be provided.</li>
+            <li>The Address provided should be a proper. It should not contain any Special characters.</li>
+
+            <li>The Address provided should be a proper place.If the provided address is not recognized then
+                either it
+                will fetch the
+                forecast of the place closely matching the name or it will ask for another address.</li>
+
+            <li>Once the proper address is provided, click on Search to obtain the Forecast Information.</li>
+        </ol>
+
+        <p id="helptext">The Weather App also Includes a About Section, which will provide the Info of how the weather
+            app is
+            fetching the data.So please go through with that to understand the app better.</p>
+
+        <p id="helptext">Hope that was Helpful</p>
+
+        <p id="helptext">Have a nice day!!</p>
+    </div>
+
+    {{>footer}}
+</body>
+
+</html>

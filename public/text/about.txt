@@ -1,0 +1,2 @@
+This App will fetch a real-time weather data of an Address which we provide.Here we make use of "Mapbox" API End point to fetch the latitude and longitude of the provided address. This latitude and longitude is later passed to the "Darksky" API End point, Which inturn will fetch the real-time weather data of that particular location.
+The weather data includes the summary of the weather for the day followed by temperature in fahrenheit and percentage of rain. 
